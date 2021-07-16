@@ -148,4 +148,4 @@ async def skip(ctx):
     voice.stop()
 
 token = os.environ.get('Token')
-bot.run(str(Token))
+bot.run(str(token))
