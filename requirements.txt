@@ -1,5 +1,4 @@
-discord
+discord.py
 os
 youtube_dl
-random
 json
