@@ -1,7 +1,5 @@
 discord.py
-sqlite3
 os
 youtube_dl
 random
 json
-string
