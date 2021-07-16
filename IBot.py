@@ -147,4 +147,5 @@ async def skip(ctx):
     voice = discord.utils.get(bot.voice_clients, guild=ctx.guild)
     voice.stop()
 
-bot.run(settings['token'])
+token = os.environ.get('Token')
+bot.run(str(Token))
